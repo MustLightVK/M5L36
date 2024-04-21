@@ -8,7 +8,7 @@ function comments() {
         let commentsContainer = document.getElementById('comments');
 
         comments.forEach(function(comment) {
-            var commentDiv = document.createElement('div');
+            let commentDiv = document.createElement('div');
             commentDiv.classList.add('comment');
             commentDiv.innerHTML = `
             <p><strong>E-mail:</strong> ${comment.email}</p>
